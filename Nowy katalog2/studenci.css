@@ -1,0 +1,77 @@
+listaStudentow
+{
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 5%;
+  background-color: #40c5a8;
+  border-style: dotted;
+  width: 740px;
+  float:center;
+  padding: 2%;
+}
+
+
+student
+{
+ text-align: left;
+ margin-top:10px;
+ margin-left:10px;
+ margin-right:10px;
+ margin-bottom:10px;
+ width:190px;
+ border: 1px solid black; 
+ display:block;
+ background-color: #6ec1d1;
+}
+
+nrIndeksu::before {
+
+font-size:10px;
+content: "Numer indeksu:";
+}
+
+nrIndeksu{
+font-size:10px;
+    display: block;
+}
+grupa{
+background-color: #a8bdc1;
+}
+nazwisko{
+font-size:20px;
+color:blue;
+}
+grupa[nr="1"]
+	{ display: inline;
+	float:left;
+	border-style: solid;
+	margin-top:20px;
+	margin-left:20px;
+	font-size:18px;
+	}
+grupa[nr="2"]
+	{ display: inline;
+		float:left;
+		border-style: solid;
+	margin-top:20px;
+	margin-left:20px;
+	font-size:18px;
+	}
+
+grupa[nr="3"]
+	{ display: inline;
+		float:left;
+		border-style: solid;
+	margin-top:20px;
+	margin-left:20px;
+	font-size:18px;
+	}
+grupa[nr="3"]>student:hover{
+background-color: red;
+}
+grupa[nr="2"]>student:hover{
+background-color: blue;
+}
+grupa[nr="1"]>student:hover{
+background-color: yellow;
+}

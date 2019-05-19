@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wzory>
+	<dzialanie1>123+30=23424</dzialanie1>
+	<dzialanie1>004343+0=232</dzialanie1>
+	<dzialanie1>110=232</dzialanie1> <!-- tylko jedna liczba, brak dodawania -->
+	<dzialanie2>123 + 30 = 23424; 004343 + 0 = 232; 5 + 5 = 10</dzialanie2>
+        <dzialanie2>123 + 30 = 23424; 004343 + 0 = 232; 5 + 5 = 10; </dzialanie2>
+	<dzialanie2>123 + 30 = 23424 004343 + 0 = 232 5 + 5 = 10 </dzialanie2>
+	<dzialanie2>123 + 30 = 23424004343 + 0 = 2325 + 5 = 10</dzialanie2>
+	<dzialanie2>123+43=34; 45+3=4</dzialanie2> <!-- brak spacji pomiędzy znakami -->
+        <dzialanie2>123+43=34; 45+3=4; </dzialanie2> <!-- brak spacji pomiędzy znakami -->
+	<dzialanie2>123 + 43 = 34; </dzialanie2>
+        <dzialanie2>123 + 43 = 34</dzialanie2>
+	<kod>Kb$062A</kod>
+	<kod>Kaa212B</kod>
+	<kod>KaX212B</kod> <!-- 3 znak z wielkiej -->
+	<kod>Kaa2s4A</kod> <!-- 5 znak nie cyfra -->
+	<kod>Kb$062U</kod> <!-- ostatni znak inni niż A lub B -->
+	<haslo>aDuc$</haslo>
+	<haslo>D@D@kakaMM</haslo>
+	<haslo>p0gwer</haslo> <!-- cyfra -->
+	<haslo>123wata</haslo> <!-- cyfra -->
+	<haslo>stolenakryjsie</haslo> <!-- za długi -->
+	<liczba>12040</liczba>
+	<liczba>8945588</liczba> <!-- brak zer -->
+	<liczba>89405588</liczba> <!-- brak zer -->
+	<liczba>3000001</liczba> <!-- nieparzyste -->
+	<liczba>102030405060</liczba>
+	<liczba>00000000</liczba>
+</wzory>

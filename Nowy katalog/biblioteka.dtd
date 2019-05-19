@@ -1,0 +1,14 @@
+
+<!ELEMENT biblioteka   (ksiazka+, dzial+)>
+<!ELEMENT ksiazka    (tytul, autor, opis)>
+<!ELEMENT tytul       (#PCDATA)>
+<!ELEMENT autor   (#PCDATA)>
+<!ELEMENT opis      (#PCDATA)>
+<!ELEMENT dzial     (#PCDATA)>
+
+<!ATTLIST ksiazka    id ID #REQUIRED>
+<!ATTLIST ksiazka    dzial IDREF #REQUIRED>
+<!ATTLIST ksiazka    oprawa  (twarda|miękka) #REQUIRED>
+<!ATTLIST ksiazka    opcja CDATA #IMPLIED>
+<!ATTLIST dzial   	 kod ID #REQUIRED>
+

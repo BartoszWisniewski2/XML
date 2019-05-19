@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<!-- definition of simple elements -->
+	<xsd:element name="kod1" type="xsd:string"/>
+	<xsd:element name="kod2" type="xsd:string"/>
+	<xsd:element name="kod3" type="xsd:string"/>
+
+
+	
+	<!-- definition of complex elements -->
+	<xsd:element name="kody">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="grupa1"  minOccurs="0" maxOccurs="unbounded" />
+				<xsd:element ref="grupa2"  minOccurs="0" maxOccurs="unbounded" />
+				<xsd:element ref="grupa3"  minOccurs="0" maxOccurs="unbounded" />
+				<xsd:element ref="grupa4"  minOccurs="0" maxOccurs="unbounded" />
+				<xsd:element ref="grupa5"  minOccurs="0" maxOccurs="unbounded" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>		
+		
+	<xsd:element name="grupa1">
+		<xsd:complexType>
+			<xsd:choice>
+				<xsd:element ref="kod1"/>
+				<xsd:element ref="kod2"/>
+				<xsd:element ref="kod3"/>
+			</xsd:choice>
+		</xsd:complexType>
+	</xsd:element>
+			
+	<xsd:element name="grupa2">
+		<xsd:complexType>
+			<xsd:all>
+				<xsd:element ref="kod1"/>
+				<xsd:element ref="kod2"/>
+				<xsd:element ref="kod3"/>
+			</xsd:all>
+		</xsd:complexType>
+	</xsd:element>
+	
+			
+	<xsd:element name="grupa3">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="kod1"/>
+				<xsd:choice>
+					<xsd:element ref="kod2"/>
+					<xsd:element ref="kod3"/>
+				</xsd:choice>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="grupa4">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="kod1" minOccurs="2" maxOccurs="unbounded"/>
+				<xsd:element ref="kod2" maxOccurs="4" />
+			</xsd:sequence>
+
+		</xsd:complexType>
+	</xsd:element>
+	
+		<xsd:element name="grupa5">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:group ref="grupa" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+				
+	<xsd:group name="grupa">
+		<xsd:choice>
+				<xsd:element ref="kod1" />
+				<xsd:element ref="kod2" />
+				<xsd:element ref="kod3"/>
+		</xsd:choice>
+	</xsd:group>
+	
+</xsd:schema>

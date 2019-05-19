@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE uczelnia SYSTEM "uczelnia.dtd">
+<uczelnia>
+	<nazwa>
+		Uniwesytet Gdański
+	</nazwa>
+
+	<prorektor>
+		<imie>Adam</imie>
+		<nazwisko>Węcki</nazwisko>
+	</prorektor>
+	<prorektor>
+		<tytul>Dr. Profesor UG</tytul>
+		<imie>Andrzej</imie>
+		<nazwisko>Wącki</nazwisko>
+	</prorektor>
+	<wydzial>
+		<nazwa>
+		MFI
+		</nazwa>
+		<dziekan>
+			<imie>Mariusz</imie>
+			<nazwisko>Męcki</nazwisko>
+		</dziekan>
+		<prodziekan>
+			<imie>Janusz</imie>
+			<nazwisko>Januszewski</nazwisko>
+		</prodziekan>
+		<instytut>
+			<nazwa>Informatyki</nazwa>
+			<dyrektor>
+				<imie>
+				Tomasz
+				</imie>
+				<nazwisko>
+				Tomaszewski
+				</nazwisko>
+			</dyrektor>
+		</instytut>
+	</wydzial>	
+	<wydzial>
+		<nazwa>Biologii</nazwa>
+		<dziekan>
+			<imie>Marek</imie>
+			<nazwisko>Niedrwalowski</nazwisko>
+		</dziekan>
+		<prodziekan>
+			<imie>Michał</imie>
+			<nazwisko>Niekaczor</nazwisko>
+		</prodziekan>
+		<instytut>
+			<nazwa>Informatyki</nazwa>
+			<dyrektor>
+				<imie>Tomasz</imie>
+				<nazwisko>Bobącki</nazwisko>
+			</dyrektor>
+		</instytut>
+	</wydzial>
+</uczelnia>

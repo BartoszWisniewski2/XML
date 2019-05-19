@@ -1,0 +1,18 @@
+/child::studenci/child::student[imie='Jan']/*
+/child::studenci/child::student[@plec='k']
+/child::studenci/child::student[count(drugie-imie)=0]
+//studia[kierunek='Informatyka']/parent::student
+/child::studenci/child::student[@plec='m'][studia/kierunek='Matematyka']
+/child::studenci/child::student[position()=3]
+/child::studenci/child::student[position() mod 2 = 0]
+/child::studenci/child::student[nazwisko = 'Nowak']/child::studia/child::kierunek
+/child::studenci/child::student/child::studia[starts-with(@typ,'stacjonarne')]/parent::
+/child::studenci/child::student[studia/@typ[contains(.,'licencjackie')]]/@indeks
+/child::studenci/child::student[imie='Marcin']/following-sibling::student[1]/@indeks
+/child::studenci/child::student[@indeks != '122']
+/child::studenci/child::student[@indeks < '135']/@indekssum(/child::studenci/child::student/@indeks)
+/child::studenci/child::student[@indeks < '135' and @indeks > '130']/@indeks
+sum(/child::studenci/child::student/@indeks)
+/child::studenci/child::student[data-urodzenia[contains(.,'-12-')]]/nazwisko
+ceiling(/child::studenci/child::student[nazwisko='Nowak']/@indeks div /child::studenci/child::student[nazwisko='Kowalski']/@indeks)
+count(/child::studenci/child::student[nazwisko[starts-with(.,'K')]])

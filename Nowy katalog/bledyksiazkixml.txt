@@ -1,0 +1,25 @@
+Błąd przetwarzania XML: nieprawidłowo sformowany
+Obszar: https://www.w3schools.com/xml/xml_validator.asp
+Numer wiersza: 4, kolumna 29:
+		<tytul podtytul='Beginner's guide for XML'>Przewodnik dla początkującego w XML</tytul>
+------------------------------------------^
+
+Błąd przetwarzania XML: niepasujący znacznik. Oczekiwano: </abc>.
+Obszar: https://www.w3schools.com/xml/xml_validator.asp
+Numer wiersza: 6, kolumna 134:
+		<opis>W książce dowiesz się wielu ciekawych rzeczy o języku XML np. o znacznikach czyli wyrażeniach postaci <abc>, i wielu innych</opis>
+
+Błąd przetwarzania XML: niepasujący znacznik. Oczekiwano: </autor>.
+Obszar: file:///home/LABPK/bwisniewski2/XML/ksiazki.xml
+Numer wiersza: 11, kolumna 5:		</tytul>Henryk Sienkiewicz</autor>
+------------------^
+
+Błąd przetwarzania XML: niepasujący znacznik. Oczekiwano: </opis>.
+Obszar: file:///home/LABPK/bwisniewski2/XML/ksiazki.xml
+Numer wiersza: 13, kolumna 29:		<cena waluta='zł'/>15.00</cena>
+------------------------------------------^
+
+Błąd przetwarzania XML: niepasujący znacznik. Oczekiwano: </opis>.
+Obszar: file:///home/LABPK/bwisniewski2/XML/ksiazki.xml
+Numer wiersza: 14, kolumna 4:	</ksiazka>
+----------^

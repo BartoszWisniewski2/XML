@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="plik.css" ?> 
+<studenci>
+<grupa numer='1'>
+	<osoba płeć='m'>
+		<imie>Bajeczny</imie>
+		<nazwisko>Pankracy</nazwisko>
+		<nr_albumu>10000</nr_albumu>
+	</osoba>
+	<osoba płeć='m'>
+		<imie>Łysy</imie>
+		<nazwisko>Bianor</nazwisko>
+		<nr_albumu>10001</nr_albumu>
+	</osoba>
+	<osoba płeć='m'>
+		<imie>Zabacki</imie>
+		<nazwisko>Klet</nazwisko>
+		<nr_albumu>10002</nr_albumu>
+	</osoba>
+	<osoba płeć='k'>
+		<imie>Abbacka</imie>
+		<nazwisko>Cyrenia</nazwisko>
+		<nr_albumu>1003</nr_albumu>
+	</osoba>
+	<osoba płeć='k'>
+		<imie>Komosa</imie>
+		<nazwisko>Jurata</nazwisko>
+		<nr_albumu>1004</nr_albumu>
+	</osoba>
+</grupa>
+<grupa numer="2">
+	<osoba płeć='m'>
+		<imie>Debacki</imie>
+		<nazwisko>Kanizjusz</nazwisko>
+		<nr_albumu>1006</nr_albumu>
+	</osoba>
+	<osoba płeć='m'>
+		<imie>Miłosierny</imie>
+		<nazwisko>Radzimir</nazwisko>
+		<nr_albumu>1007</nr_albumu>
+	</osoba>
+	<osoba płeć='k'>
+		<imie>Kaktus</imie>
+		<nazwisko>Abelia</nazwisko>
+		<nr_albumu>1008</nr_albumu>
+	</osoba>
+	<osoba płeć='k'>
+		<imie>Lebiodka</imie>
+		<nazwisko>Maja</nazwisko>
+		<nr_albumu>1009</nr_albumu>
+	</osoba>
+	<osoba płeć='m'>
+		<imie>Zapominajka</imie>
+		<nazwisko>Wadim</nazwisko>
+		<nr_albumu>1010</nr_albumu>
+	</osoba>
+</grupa>
+<grupa numer="3">
+	<osoba płeć='k'>
+		<imie>Różańska</imie>
+		<nazwisko>Jagoda</nazwisko>
+		<nr_albumu>1012</nr_albumu>
+	</osoba>
+	<osoba płeć='k'>
+		<imie>Jagodańska</imie>
+		<nazwisko>Róża</nazwisko>
+		<nr_albumu>1013</nr_albumu>
+	</osoba>
+	<osoba płeć='m'>
+		<imie>Habacki</imie>
+		<nazwisko>Biryn</nazwisko>
+		<nr_albumu>1014</nr_albumu>
+	</osoba>
+	<osoba płeć='m'>
+		<imie>Zamiły</imie>
+		<nazwisko>Fiebrosław</nazwisko>
+		<nr_albumu>1015</nr_albumu>
+	</osoba>
+	<osoba płeć='m'>
+		<imie>Kabacki</imie>
+		<nazwisko>Adrian</nazwisko>
+		<nr_albumu>1016</nr_albumu>
+	</osoba>
+</grupa>
+</studenci>

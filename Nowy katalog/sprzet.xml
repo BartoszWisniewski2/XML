@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sklep>
+	<komputer category = "serwer">
+		<tytul lang='pl'>Serwer</tytul>
+		<procesor>Intel</procesor>
+		<grafika>Nvidia</grafika>
+		<ram ilosc='GB'>64</ram>
+		<opis>Działa i jest tani</opis>
+		<cena waluta="zł">3333.90</cena><!-- Komentarz1 -->
+	</komputer>
+	<komputer category = "personal">
+		<tytul lang='pl'>Użytkowy</tytul>
+		<procesor>Intel</procesor>
+		<grafika>integra</grafika>
+		<ram ilosc='mb'>512</ram>
+		<opis>słaby, ale bardzo tani</opis><!-- Komentarz2 -->
+		<cena waluta='zł'>515.00</cena>
+	</komputer>
+</sklep>

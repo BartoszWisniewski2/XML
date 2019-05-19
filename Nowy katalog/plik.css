@@ -1,0 +1,28 @@
+studenci {
+	display: inline;
+}
+grupa {
+ border-style: solid;
+ display: inline-block;
+ border-collapse: collapse;
+}
+osoba {
+ display: block;
+}
+nr_albumu::before{
+	content: "nr albumu: "
+}
+nr_albumu{
+	display:block;
+	font-size: smaller;
+}
+nazwisko{
+	font-style: italic;
+}
+
+osoba[płeć='k']>nazwisko::after{
+	content: url('oznaczenieKobieta.png');
+}
+osoba[płeć='m']>nazwisko::after{
+	content: url('oznaczenieMezczyzna.png');
+}
